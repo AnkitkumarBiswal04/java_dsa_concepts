@@ -3,6 +3,7 @@ import java.util.*;
 //this program is for finding whether the number is 
 //even or odd 
 public class ifStatement_1 {
+
 	public static void main(String[] args) {
 		Scanner sc =new Scanner(System.in);
 		int num=sc.nextInt();
