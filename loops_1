@@ -1,0 +1,12 @@
+package loops;
+import java.util.*;
+public class loops_1 {
+// print "hello world" 4 times 
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		for(int counter=0;counter<5;counter=counter+1) {
+			System.out.println("hello world");
+		}
+	}
+
+}
