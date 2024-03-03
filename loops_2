@@ -1,0 +1,14 @@
+package loops;
+
+public class loops_2 {
+// print number from 0 to 10 
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//counter=counter+1 or counter++
+		for(int counter=0; counter<11;counter++) {
+			System.out.println(counter);
+			
+		}
+	}	
+
+}
