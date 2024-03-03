@@ -1,0 +1,23 @@
+package conditional_statement;
+import java.util.*;
+public class ifStatement_2 {
+//this program is for finding whether the number is 
+//equal or less than or greater than 
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		int a=sc.nextInt();
+		int b=sc.nextInt();
+		if(a==b) {
+			System.out.println("A is Equal to B");
+		}
+		else 
+			if(a>b) {
+			System.out.println("A is Greater than B");
+		}
+		else{
+			System.out.println("A in Lesser than B");
+		}
+	}
+
+}
