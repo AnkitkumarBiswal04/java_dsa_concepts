@@ -1,0 +1,14 @@
+package loops;
+
+public class loops_4 {
+// to print number from 1 to 10 using do while loop
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int i=0;
+		do {
+			System.out.print(i+" ");
+			i++;
+		}while(i<11);
+	}
+
+}
