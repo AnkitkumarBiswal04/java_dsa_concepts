@@ -1,0 +1,26 @@
+package patterns;
+import java.util.*;
+public class patterns_5 {
+//to print pattern inverted half pyramid 180degree inverted
+//	input n is 3
+//    *
+//   **
+//  ***
+// ****
+	public static void main(String[] args) {
+	Scanner sc=new Scanner(System.in);
+	int n=sc.nextInt();
+//for outer loop
+	for(int i=0;i<=n;i++) {
+		//inner loop for space
+		for(int j=0;j<=n-i;j++) {
+			System.out.print(" ");
+		}
+		//another inner loop for printing
+		for(int j=0;j<=i;j++) {
+			System.out.print("*");
+		}
+		System.out.println();
+	}
+	}
+}
