@@ -1,0 +1,18 @@
+package functions;
+//multiplying two numbers and calling by its function
+import java.util.*;
+public class functions_3 {
+public static int multiplyTwo(int a,int b) {
+	return a*b;
+}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		int a=sc.nextInt();
+		int b=sc.nextInt();
+		int mul;
+		mul=multiplyTwo(a,b);
+		System.out.println("the multiplication of two number is:"+mul);
+	}
+
+}
