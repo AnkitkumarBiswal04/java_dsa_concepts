@@ -1,0 +1,16 @@
+package functions;
+import java.util.*;
+//understanding function and print name 
+public class functions_1 {
+public static void printMyName(String name) {
+	System.out.print("your name is :"+name);
+	return;
+}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		String name=sc.next();
+		printMyName(name);
+	}
+
+}
