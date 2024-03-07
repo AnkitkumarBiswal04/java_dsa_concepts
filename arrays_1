@@ -1,0 +1,20 @@
+package arrays;
+import java.util.*;
+public class arrays_1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//		int marks[]=new int[3];
+		int marks[]= {97,98,95};
+//		marks[0]=97;//physics
+//		marks[1]=98;//chemistry
+//		marks[2]=95;//english
+//		System.out.println("physics marks is :"+marks[0]);
+//		System.out.println("chemistry marks is :"+marks[1]);
+//		System.out.println("english marks is :"+marks[2]);
+		for(int i=0;i<3;i++) {
+			System.out.println("Marks is :"+marks[i]);
+		}
+	}
+
+}
